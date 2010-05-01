@@ -1,51 +1,52 @@
 TSelfControl
 v7
 r0
-t278146812.775752
+t294440353.919001
 cCheck dependencies
-cProcessInfoPlistFile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Info.plist Info.plist
-cCopyPlistFile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources/org.eyebeam.SelfControl.plist org.eyebeam.SelfControl.plist
-cCopyStringsFile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/charlie/SelfControl/selfcontrol/English.lproj/MainMenu.xib
-cCompileXIB /Users/charlie/SelfControl/selfcontrol/English.lproj/DomainList.xib
+cProcessInfoPlistFile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Info.plist Info.plist
+cCopyPlistFile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/org.eyebeam.SelfControl.plist org.eyebeam.SelfControl.plist
+cCopyStringsFile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib
+cCompileXIB /Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib
 cCpResource build/Release/SelfControl.app/Contents/Resources/SelfControlIcon.icns SelfControlIcon.icns
 cCpResource build/Release/SelfControl.app/Contents/Resources/Credits.rtf Credits.rtf
 cCpResource build/Release/SelfControl.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
 cCpResource build/Release/SelfControl.app/Contents/Resources/SelfControlAppcast.xml SelfControlAppcast.xml
 cCpResource build/Release/SelfControl.app/Contents/Resources/NSRemoveTemplate.jpg NSRemoveTemplate.jpg
 cCpResource build/Release/SelfControl.app/Contents/Resources/NSAddTemplate.jpg NSAddTemplate.jpg
-cCompileXIB /Users/charlie/SelfControl/selfcontrol/TimerWindow.xib
-cCompileXIB /Users/charlie/SelfControl/selfcontrol/TigerTimerWindow.xib
+cCompileXIB /Users/d3designs/Projects/SelfControl/TimerWindow.xib
+cCompileXIB /Users/d3designs/Projects/SelfControl/TigerTimerWindow.xib
 cCpResource build/Release/SelfControl.app/Contents/Resources/ERRORS ERRORS
 cCpResource build/Release/SelfControl.app/Contents/Resources/SelfControlBlocklist.icns SelfControlBlocklist.icns
-cProcessPCH /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch.gch SelfControl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
-cProcessPCH /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch.gch SelfControl_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/main.o /Users/charlie/SelfControl/selfcontrol/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/AppController.o /Users/charlie/SelfControl/selfcontrol/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/TimerWindowController.o /Users/charlie/SelfControl/selfcontrol/TimerWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/HostImporter.o /Users/charlie/SelfControl/selfcontrol/HostImporter.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ThunderbirdPreferenceParser.o /Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ButtonWithPopupMenu.o /Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/DomainListWindowController.o /Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/NSCharacterSet+NewlineAddition.o /Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControlUtilities.o /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/main.o /Users/charlie/SelfControl/selfcontrol/main.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cLd /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl normal i386
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/AppController.o /Users/charlie/SelfControl/selfcontrol/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/TimerWindowController.o /Users/charlie/SelfControl/selfcontrol/TimerWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/HostImporter.o /Users/charlie/SelfControl/selfcontrol/HostImporter.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ThunderbirdPreferenceParser.o /Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ButtonWithPopupMenu.o /Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/DomainListWindowController.o /Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/NSCharacterSet+NewlineAddition.o /Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cLd /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl normal ppc
-cCreateUniversalBinary /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/MacOS/SelfControl normal "i386 ppc"
-cGenerateDSYMFile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app.dSYM /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/MacOS/SelfControl
+cProcessPCH /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch.gch SelfControl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+cProcessPCH /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch.gch SelfControl_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/main.o /Users/d3designs/Projects/SelfControl/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/AppController.o /Users/d3designs/Projects/SelfControl/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/TimerWindowController.o /Users/d3designs/Projects/SelfControl/TimerWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/HostImporter.o /Users/d3designs/Projects/SelfControl/HostImporter.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ThunderbirdPreferenceParser.o /Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ButtonWithPopupMenu.o /Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/DomainListWindowController.o /Users/d3designs/Projects/SelfControl/DomainListWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/NSCharacterSet+NewlineAddition.o /Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControlUtilities.o /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/main.o /Users/d3designs/Projects/SelfControl/main.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/AppController.o /Users/d3designs/Projects/SelfControl/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/TimerWindowController.o /Users/d3designs/Projects/SelfControl/TimerWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl normal i386
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/HostImporter.o /Users/d3designs/Projects/SelfControl/HostImporter.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ThunderbirdPreferenceParser.o /Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ButtonWithPopupMenu.o /Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/DomainListWindowController.o /Users/d3designs/Projects/SelfControl/DomainListWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/NSCharacterSet+NewlineAddition.o /Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl normal ppc
+cCreateUniversalBinary /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl normal "i386 ppc"
+cGenerateDSYMFile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app.dSYM /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl
 cPBXCp build/Release/SelfControl.app/Contents/MacOS/org.eyebeam.SelfControl build/Release/org.eyebeam.SelfControl
 cPBXCp build/Release/SelfControl.app/Contents/Frameworks/iLifeControls.framework iLifeControls.framework
 cPBXCp build/Release/SelfControl.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
-cTouch /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app
+cPhaseScriptExecution "Automate Appcast Build" /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Script-CBF2893C10AD3A3300A0102F.sh
+cTouch /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app
 
 N/Developer/SDKs/MacOSX10.4u.sdk
 c000000004A1199E200000000000000EE
@@ -82,15 +83,50 @@ c00000000463BAA5A0000000000004EED
 t1178315354
 s20205
 
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h
+c00000000490261C600000000000009CB
+t1224892870
+s2507
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004A0CC11F0000000000066764
+t1242349855
+s419684
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetwork.h
+c0000000047BAC5060000000000001A11
+t1203422470
+s6673
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h
+c0000000047BA993200000000000053FF
+t1203411250
+s21503
+
 N/System/Library/Frameworks/Cocoa.framework/Cocoa
 c000000004A1F2D63000000000000A5E0
 t1243557219
 s42464
 
 N/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c000000004A6A95710000000000117D80
-t1248499057
-s1146240
+c000000004B298EED0000000000118EB0
+t1261014765
+s1150640
 
 N/Users/charlie/SelfControl/selfcontrol/AppController.h
 c000000004A0DBA7E0000000000001539
@@ -484,6 +520,411 @@ c000000004A00C96D00000000000001F4
 t1241565549
 s500
 
+N/Users/d3designs/Projects/SelfControl/AppController.h
+c000000004AFCDE9C0000000000001539
+t1258086044
+s5433
+i<Cocoa/Cocoa.h>
+i"DomainListWindowController.h"
+i"TimerWindowController.h"
+i<Security/Security.h>
+i<SystemConfiguration/SCNetwork.h>
+i<unistd.h>
+
+N/Users/d3designs/Projects/SelfControl/AppController.m
+c000000004BDC818000000000000086D3
+t1272742272
+s34515
+i"AppController.h"
+
+N/Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.h
+c000000004AFCDE9C00000000000005AB
+t1258086044
+s1451
+i<Cocoa/Cocoa.h>
+
+N/Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m
+c000000004AFCDE9C00000000000007B0
+t1258086044
+s1968
+i"ButtonWithPopupMenu.h"
+
+N/Users/d3designs/Projects/SelfControl/Credits.rtf
+c000000004BDC90FA000000000000023B
+t1272746234
+s571
+
+N/Users/d3designs/Projects/SelfControl/DomainListWindowController.h
+c000000004AFCDE9C0000000000001257
+t1258086044
+s4695
+i<Cocoa/Cocoa.h>
+i"HostImporter.h"
+i"ThunderbirdPreferenceParser.h"
+
+N/Users/d3designs/Projects/SelfControl/DomainListWindowController.m
+c000000004AFCDE9C0000000000002EF7
+t1258086044
+s12023
+i"DomainListWindowController.h"
+
+N/Users/d3designs/Projects/SelfControl/ERRORS
+c000000004AFCDE9C00000000000008DA
+t1258086044
+s2266
+
+N/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib
+c000000004BDC8ED60000000000013F93
+t1272745686
+s81811
+
+N/Users/d3designs/Projects/SelfControl/English.lproj/InfoPlist.strings
+c000000004AFCDE9C000000000000005C
+t1258086044
+s92
+
+N/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib
+c000000004BDC945F0000000000023EF6
+t1272747103
+s147190
+
+N/Users/d3designs/Projects/SelfControl/HostImporter.h
+c000000004AFCDE9C0000000000000704
+t1258086044
+s1796
+i<Cocoa/Cocoa.h>
+i"ThunderbirdPreferenceParser.h"
+
+N/Users/d3designs/Projects/SelfControl/HostImporter.m
+c000000004AFCDE9C0000000000001082
+t1258086044
+s4226
+i"HostImporter.h"
+
+N/Users/d3designs/Projects/SelfControl/NSAddTemplate.jpg
+c000000004AFCDE9C00000000000003A3
+t1258086044
+s931
+
+N/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.h
+c000000004AFCDE9C00000000000005B7
+t1258086044
+s1463
+i<Cocoa/Cocoa.h>
+
+N/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m
+c000000004AFCDE9C0000000000000549
+t1258086044
+s1353
+i"NSCharacterSet+NewlineAddition.h"
+
+N/Users/d3designs/Projects/SelfControl/NSRemoveTemplate.jpg
+c000000004AFCDE9C0000000000000369
+t1258086044
+s873
+
+N/Users/d3designs/Projects/SelfControl/SelfControlAppcast.xml
+c000000004AFCDE9C0000000000000E1E
+t1258086044
+s3614
+
+N/Users/d3designs/Projects/SelfControl/SelfControlBlocklist.icns
+c000000004AFCDE9C000000000001B2A2
+t1258086044
+s111266
+
+N/Users/d3designs/Projects/SelfControl/SelfControlIcon.icns
+c000000004AFCDE9C000000000003580B
+t1258086044
+s219147
+
+N/Users/d3designs/Projects/SelfControl/SelfControlUtilities.h
+c000000004AFCDE9C0000000000000549
+t1258086044
+s1353
+i<Foundation/Foundation.h>
+
+N/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m
+c000000004AFCDE9C00000000000007C9
+t1258086044
+s1993
+i"SelfControlUtilities.h"
+
+N/Users/d3designs/Projects/SelfControl/SelfControl_Prefix.pch
+c000000004AFCDE9C0000000000000095
+t1258086044
+s149
+i<Cocoa/Cocoa.h>
+
+N/Users/d3designs/Projects/SelfControl/Sparkle.framework
+c000000004BDC5B1800000000000000CC
+t1272732440
+s204
+
+N/Users/d3designs/Projects/SelfControl/Sparkle.framework/Sparkle
+c000000004AFCDE9C00000000000712B4
+t1258086044
+s463540
+
+N/Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.h
+c000000004AFCDE9C0000000000000A6B
+t1258086044
+s2667
+i<Cocoa/Cocoa.h>
+i"NSCharacterSet+NewlineAddition.h"
+
+N/Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m
+c000000004AFCDE9C0000000000002410
+t1258086044
+s9232
+i"ThunderbirdPreferenceParser.h"
+
+N/Users/d3designs/Projects/SelfControl/TigerTimerWindow.xib
+c000000004AFCDE9C0000000000007A7A
+t1258086044
+s31354
+
+N/Users/d3designs/Projects/SelfControl/TimerWindow.xib
+c000000004BDC8FB9000000000000D570
+t1272745913
+s54640
+
+N/Users/d3designs/Projects/SelfControl/TimerWindowController.h
+c000000004AFCDE9C0000000000000A74
+t1258086044
+s2676
+i<Cocoa/Cocoa.h>
+i"AppController.h"
+i"SelfControlUtilities.h"
+
+N/Users/d3designs/Projects/SelfControl/TimerWindowController.m
+c000000004BDC95390000000000002074
+t1272747321
+s8308
+i"TimerWindowController.h"
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app
+t1272747553
+s102
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app.dSYM
+t1272747553
+s102
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Frameworks/Sparkle.framework
+t1272732440
+s204
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Frameworks/iLifeControls.framework
+t1272732440
+s204
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Info.plist
+t1258086044
+s1453
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl
+t1272747553
+s135928
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/org.eyebeam.SelfControl
+t1272747553
+s99408
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/PkgInfo
+t1258086044
+s8
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/Credits.rtf
+t1272747548
+s571
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/ERRORS
+t1258086044
+s2266
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/English.lproj/DomainList.nib
+t1272747549
+s19377
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1258086044
+s92
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/English.lproj/MainMenu.nib
+t1272747549
+s27405
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/NSAddTemplate.jpg
+t1258086044
+s931
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/NSRemoveTemplate.jpg
+t1258086044
+s873
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/SelfControlAppcast.xml
+t1258086044
+s2995
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/SelfControlBlocklist.icns
+t1258086044
+s111266
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/SelfControlIcon.icns
+t1258086044
+s219147
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/TigerTimerWindow.nib
+t1258086044
+s7718
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/TimerWindow.nib
+t1272747549
+s8143
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/dsa_pub.pem
+t1258086044
+s1178
+
+N/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/org.eyebeam.SelfControl.plist
+t1258086044
+s500
+
+N/Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl
+c000000004BDC961C000000000001A7A0
+t1272747548
+s108448
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/AppController.o
+t1272747553
+s81892
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ButtonWithPopupMenu.o
+t1272747552
+s22520
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/DomainListWindowController.o
+t1272747552
+s43464
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/HostImporter.o
+t1272747552
+s13684
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/NSCharacterSet+NewlineAddition.o
+t1272747552
+s7368
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl
+t1272747553
+s66176
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl.LinkFileList
+c000000004BDC961C0000000000000493
+t1272747548
+s1171
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControlUtilities.o
+t1272747552
+s7588
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ThunderbirdPreferenceParser.o
+t1272747552
+s23560
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/TimerWindowController.o
+t1272747552
+s32564
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/main.o
+t1272747552
+s4808
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/AppController.o
+t1272747553
+s98960
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ButtonWithPopupMenu.o
+t1272747553
+s23760
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/DomainListWindowController.o
+t1272747553
+s49228
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/HostImporter.o
+t1272747553
+s15160
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/NSCharacterSet+NewlineAddition.o
+t1272747553
+s7692
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl
+t1272747553
+s62200
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl.LinkFileList
+c000000004BDC961C000000000000048A
+t1272747548
+s1162
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o
+t1272747553
+s7856
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ThunderbirdPreferenceParser.o
+t1272747553
+s27464
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/TimerWindowController.o
+t1272747553
+s36820
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/main.o
+t1272747553
+s4976
+
+N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Script-CBF2893C10AD3A3300A0102F.sh
+c000000004BDC961C0000000000003E09
+t1272747548
+s15881
+
+N/Users/d3designs/Projects/SelfControl/dsa_pub.pem
+c000000004AFCDE9C000000000000049A
+t1258086044
+s1178
+
+N/Users/d3designs/Projects/SelfControl/iLifeControls.framework
+c000000004BDC5B1800000000000000CC
+t1272732440
+s204
+
+N/Users/d3designs/Projects/SelfControl/iLifeControls.framework/iLifeControls
+c000000004AFCDE9C0000000000023E28
+t1258086044
+s146984
+
+N/Users/d3designs/Projects/SelfControl/main.m
+c000000004AFCDE9C0000000000000109
+t1258086044
+s265
+i<Cocoa/Cocoa.h>
+
+N/Users/d3designs/Projects/SelfControl/org.eyebeam.SelfControl.plist
+c000000004AFCDE9C00000000000001F4
+t1258086044
+s500
+
+N/var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch.gch
+t1272747552
+s33092260
+
+N/var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch.gch
+t1272747552
+s34755404
+
 N/var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch.gch
 t1256454004
 s29906560
@@ -493,13 +934,13 @@ t1256454005
 s28239376
 
 NInfo.plist
-c000000004A305B0600000000000005C7
-t1244683014
+c000000004AFCDE9C00000000000005C7
+t1258086044
 s1479
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies278146781#278146781#0(0"0(0#1#0"2422361408#0"0#
+lSLF07#2@18"Check dependencies294440348#294440348#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/AppController.o /Users/charlie/SelfControl/selfcontrol/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146805.392602
@@ -514,6 +955,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@62"Compile /Users/charlie/SelfControl/selfcontrol/AppController.m278146805#278146808#0(0"0(0#0#54"/Users/charlie/SelfControl/selfcontrol/AppController.m2422361408#1618"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/AppController.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/AppController.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/AppController.o /Users/d3designs/Projects/SelfControl/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.401802
+e294440353.012211
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/AppController.o
+x/Users/d3designs/Projects/SelfControl/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@61"Compile /Users/d3designs/Projects/SelfControl/AppController.m294440352#294440353#0(0"0(0#0#53"/Users/d3designs/Projects/SelfControl/AppController.m4300885448#1605"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/AppController.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/AppController.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ButtonWithPopupMenu.o /Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146808.388396
 e278146808.615135
@@ -526,6 +980,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@68"Compile /Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m278146808#278146808#0(0"0(0#0#60"/Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m2422361408#1630"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ButtonWithPopupMenu.o0#
+
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ButtonWithPopupMenu.o /Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.619152
+e294440352.771062
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ButtonWithPopupMenu.o
+x/Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@67"Compile /Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m294440352#294440352#0(0"0(0#0#59"/Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m4300885448#1617"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ButtonWithPopupMenu.o0#
 
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/DomainListWindowController.o /Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146808.615349
@@ -540,6 +1007,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@75"Compile /Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m278146808#278146809#0(0"0(0#0#67"/Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m2422361408#1644"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/DomainListWindowController.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/DomainListWindowController.o /Users/d3designs/Projects/SelfControl/DomainListWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.667100
+e294440352.978205
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/DomainListWindowController.o
+x/Users/d3designs/Projects/SelfControl/DomainListWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@74"Compile /Users/d3designs/Projects/SelfControl/DomainListWindowController.m294440352#294440352#0(0"0(0#0#66"/Users/d3designs/Projects/SelfControl/DomainListWindowController.m4300885448#1631"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/DomainListWindowController.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/DomainListWindowController.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/HostImporter.o /Users/charlie/SelfControl/selfcontrol/HostImporter.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146807.612026
 e278146807.978645
@@ -552,6 +1032,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@61"Compile /Users/charlie/SelfControl/selfcontrol/HostImporter.m278146807#278146807#0(0"0(0#0#53"/Users/charlie/SelfControl/selfcontrol/HostImporter.m2422361408#1616"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/HostImporter.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/HostImporter.o0#
+
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/HostImporter.o /Users/d3designs/Projects/SelfControl/HostImporter.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.403540
+e294440352.619022
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/HostImporter.o
+x/Users/d3designs/Projects/SelfControl/HostImporter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@60"Compile /Users/d3designs/Projects/SelfControl/HostImporter.m294440352#294440352#0(0"0(0#0#52"/Users/d3designs/Projects/SelfControl/HostImporter.m4300885448#1603"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/HostImporter.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/HostImporter.o0#
 
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/NSCharacterSet+NewlineAddition.o /Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146808.645070
@@ -566,6 +1059,22 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@79"Compile /Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m278146808#278146808#0(0"0(0#0#71"/Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m2422361408#1652"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/NSCharacterSet+NewlineAddition.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/NSCharacterSet+NewlineAddition.o /Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.771180
+e294440352.909244
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/NSCharacterSet+NewlineAddition.o
+x/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m: In function '+[NSCharacterSet(NewlineAddition) newlineCharacterSet]':
+o/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m:27: warning: conflicting types for '+(NSCharacterSet *)newlineCharacterSet'
+o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCharacterSet.h:37: warning: previous declaration of '+(id)newlineCharacterSet'
+lSLF07#2@78"Compile /Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m294440352#294440352#0(456"/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m: In function '+[NSCharacterSet(NewlineAddition) newlineCharacterSet]':/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m:27: warning: conflicting types for '+(NSCharacterSet *)newlineCharacterSet'/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCharacterSet.h:37: warning: previous declaration of '+(id)newlineCharacterSet'2(22@62"Conflicting types for '+(NSCharacterSet *)newlineCharacterSet'294440352#142#147#0(6@70"/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m279778844#27#0#27#0#25"conflicting types for '*'0(22@50"Previous declaration of '+(id)newlineCharacterSet'294440352#289#167#0(6@102"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCharacterSet.h236247369#37#0#37#0#0"0(0#0#70"/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m4300885448#1639"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/NSCharacterSet+NewlineAddition.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControlUtilities.o /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146808.958777
 e278146809.181957
@@ -579,6 +1088,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@69"Compile /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m278146808#278146809#0(0"0(0#0#61"/Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m2422361408#1632"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControlUtilities.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControlUtilities.o /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.846034
+e294440353.004679
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControlUtilities.o
+x/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@68"Compile /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m294440352#294440353#0(0"0(0#0#60"/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m4300885448#1619"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControlUtilities.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ThunderbirdPreferenceParser.o /Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146807.978804
 e278146808.644936
@@ -591,6 +1113,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@76"Compile /Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m278146807#278146808#0(0"0(0#0#68"/Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m2422361408#1646"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ThunderbirdPreferenceParser.o0#
+
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ThunderbirdPreferenceParser.o /Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.561204
+e294440352.845916
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ThunderbirdPreferenceParser.o
+x/Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@75"Compile /Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m294440352#294440352#0(0"0(0#0#67"/Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m4300885448#1633"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/ThunderbirdPreferenceParser.o0#
 
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/TimerWindowController.o /Users/charlie/SelfControl/selfcontrol/TimerWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146806.725666
@@ -615,6 +1150,19 @@ o/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:196: warning: no
 o/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:196: warning: no '-setBadgeLabel:' method found
 lSLF07#2@70"Compile /Users/charlie/SelfControl/selfcontrol/TimerWindowController.m278146806#278146807#0(1112"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m: In function '-[TimerWindowController updateTimerDisplay:]':/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: no '-dockTile' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: (Messages without a matching method signature/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: will be assumed to return 'id' and accept/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: '...' as arguments.)/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: no '-setBadgeLabel:' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:192: warning: no '-dockTile' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:192: warning: no '-setBadgeLabel:' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:196: warning: no '-dockTile' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:196: warning: no '-setBadgeLabel:' method found7(22@27"No '-dockTile' method found278146807#124#105#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#142#0#142#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)278146807#229#123#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#142#0#142#0#0"0(22@33"No '-setBadgeLabel:' method found278146807#569#111#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#142#0#142#0#19"no '*' method found0(22@27"No '-dockTile' method found278146807#680#105#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#192#0#192#0#19"no '*' method found0(22@33"No '-setBadgeLabel:' method found278146807#785#111#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#192#0#192#0#19"no '*' method found0(22@27"No '-dockTile' method found278146807#896#105#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#196#0#196#0#19"no '*' method found0(22@33"No '-setBadgeLabel:' method found278146807#1001#111#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#196#0#196#0#19"no '*' method found0(0#0#62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m2422361408#1634"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/TimerWindowController.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/TimerWindowController.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/TimerWindowController.o /Users/d3designs/Projects/SelfControl/TimerWindowController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.402645
+e294440352.666987
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/TimerWindowController.o
+x/Users/d3designs/Projects/SelfControl/TimerWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@69"Compile /Users/d3designs/Projects/SelfControl/TimerWindowController.m294440352#294440352#0(0"0(0#0#61"/Users/d3designs/Projects/SelfControl/TimerWindowController.m4300885448#1621"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/TimerWindowController.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/TimerWindowController.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/main.o /Users/charlie/SelfControl/selfcontrol/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146805.390545
 e278146806.725400
@@ -627,6 +1175,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@53"Compile /Users/charlie/SelfControl/selfcontrol/main.m278146805#278146806#0(0"0(0#0#45"/Users/charlie/SelfControl/selfcontrol/main.m2422361408#1600"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/main.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/main.o0#
+
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/main.o /Users/d3designs/Projects/SelfControl/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440352.400657
+e294440352.561085
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/main.o
+x/Users/d3designs/Projects/SelfControl/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@52"Compile /Users/d3designs/Projects/SelfControl/main.m294440352#294440352#0(0"0(0#0#44"/Users/d3designs/Projects/SelfControl/main.m4300885448#1587"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/main.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/main.o0#
 
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/AppController.o /Users/charlie/SelfControl/selfcontrol/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146809.677907
@@ -641,6 +1202,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@62"Compile /Users/charlie/SelfControl/selfcontrol/AppController.m278146809#278146811#0(0"0(0#0#54"/Users/charlie/SelfControl/selfcontrol/AppController.m2422361408#1612"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/AppController.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/AppController.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/AppController.o /Users/d3designs/Projects/SelfControl/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440352.978340
+e294440353.599276
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/AppController.o
+x/Users/d3designs/Projects/SelfControl/AppController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@61"Compile /Users/d3designs/Projects/SelfControl/AppController.m294440352#294440353#0(0"0(0#0#53"/Users/d3designs/Projects/SelfControl/AppController.m4300885448#1599"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/AppController.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/AppController.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ButtonWithPopupMenu.o /Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146811.043393
 e278146811.318921
@@ -653,6 +1227,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@68"Compile /Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m278146811#278146811#0(0"0(0#0#60"/Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m2422361408#1624"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/ButtonWithPopupMenu.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ButtonWithPopupMenu.o0#
+
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ButtonWithPopupMenu.o /Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440353.266514
+e294440353.417111
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ButtonWithPopupMenu.o
+x/Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@67"Compile /Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m294440353#294440353#0(0"0(0#0#59"/Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m4300885448#1611"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/ButtonWithPopupMenu.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ButtonWithPopupMenu.o0#
 
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/DomainListWindowController.o /Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146811.319076
@@ -667,6 +1254,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@75"Compile /Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m278146811#278146811#0(0"0(0#0#67"/Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m2422361408#1638"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/DomainListWindowController.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/DomainListWindowController.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/DomainListWindowController.o /Users/d3designs/Projects/SelfControl/DomainListWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440353.285894
+e294440353.577083
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/DomainListWindowController.o
+x/Users/d3designs/Projects/SelfControl/DomainListWindowController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@74"Compile /Users/d3designs/Projects/SelfControl/DomainListWindowController.m294440353#294440353#0(0"0(0#0#66"/Users/d3designs/Projects/SelfControl/DomainListWindowController.m4300885448#1625"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/DomainListWindowController.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/DomainListWindowController.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/HostImporter.o /Users/charlie/SelfControl/selfcontrol/HostImporter.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146810.397196
 e278146810.741477
@@ -679,6 +1279,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@61"Compile /Users/charlie/SelfControl/selfcontrol/HostImporter.m278146810#278146810#0(0"0(0#0#53"/Users/charlie/SelfControl/selfcontrol/HostImporter.m2422361408#1610"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/HostImporter.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/HostImporter.o0#
+
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/HostImporter.o /Users/d3designs/Projects/SelfControl/HostImporter.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440353.058193
+e294440353.266403
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/HostImporter.o
+x/Users/d3designs/Projects/SelfControl/HostImporter.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@60"Compile /Users/d3designs/Projects/SelfControl/HostImporter.m294440353#294440353#0(0"0(0#0#52"/Users/d3designs/Projects/SelfControl/HostImporter.m4300885448#1597"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/HostImporter.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/HostImporter.o0#
 
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/NSCharacterSet+NewlineAddition.o /Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146811.453504
@@ -693,6 +1306,22 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@79"Compile /Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m278146811#278146811#0(0"0(0#0#71"/Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m2422361408#1646"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/NSCharacterSet+NewlineAddition.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/NSCharacterSet+NewlineAddition.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/NSCharacterSet+NewlineAddition.o /Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440353.368139
+e294440353.506903
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/NSCharacterSet+NewlineAddition.o
+x/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m: In function '+[NSCharacterSet(NewlineAddition) newlineCharacterSet]':
+o/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m:27: warning: conflicting types for '+(NSCharacterSet *)newlineCharacterSet'
+o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCharacterSet.h:37: warning: previous declaration of '+(id)newlineCharacterSet'
+lSLF07#2@78"Compile /Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m294440353#294440353#0(456"/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m: In function '+[NSCharacterSet(NewlineAddition) newlineCharacterSet]':/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m:27: warning: conflicting types for '+(NSCharacterSet *)newlineCharacterSet'/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCharacterSet.h:37: warning: previous declaration of '+(id)newlineCharacterSet'2(22@62"Conflicting types for '+(NSCharacterSet *)newlineCharacterSet'294440353#142#147#0(6@70"/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m279778844#27#0#27#0#25"conflicting types for '*'0(22@50"Previous declaration of '+(id)newlineCharacterSet'294440353#289#167#0(6@102"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCharacterSet.h236247369#37#0#37#0#0"0(0#0#70"/Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m4300885448#1633"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/NSCharacterSet+NewlineAddition.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/NSCharacterSet+NewlineAddition.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146811.631526
 e278146811.827247
@@ -706,6 +1335,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@69"Compile /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m278146811#278146811#0(0"0(0#0#61"/Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m2422361408#1626"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440353.417697
+e294440353.551308
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o
+x/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@68"Compile /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m294440353#294440353#0(0"0(0#0#60"/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m4300885448#1613"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ThunderbirdPreferenceParser.o /Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146810.741621
 e278146811.453364
@@ -718,6 +1360,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@76"Compile /Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m278146810#278146811#0(0"0(0#0#68"/Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m2422361408#1640"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/ThunderbirdPreferenceParser.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ThunderbirdPreferenceParser.o0#
+
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ThunderbirdPreferenceParser.o /Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440353.060739
+e294440353.368014
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ThunderbirdPreferenceParser.o
+x/Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@75"Compile /Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m294440353#294440353#0(0"0(0#0#67"/Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m4300885448#1627"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/ThunderbirdPreferenceParser.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/ThunderbirdPreferenceParser.o0#
 
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/TimerWindowController.o /Users/charlie/SelfControl/selfcontrol/TimerWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146809.740047
@@ -742,6 +1397,19 @@ o/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:196: warning: no
 o/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:196: warning: no '-setBadgeLabel:' method found
 lSLF07#2@70"Compile /Users/charlie/SelfControl/selfcontrol/TimerWindowController.m278146809#278146810#0(1112"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m: In function '-[TimerWindowController updateTimerDisplay:]':/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: no '-dockTile' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: (Messages without a matching method signature/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: will be assumed to return 'id' and accept/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: '...' as arguments.)/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:142: warning: no '-setBadgeLabel:' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:192: warning: no '-dockTile' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:192: warning: no '-setBadgeLabel:' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:196: warning: no '-dockTile' method found/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m:196: warning: no '-setBadgeLabel:' method found7(22@27"No '-dockTile' method found278146810#124#105#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#142#0#142#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)278146810#229#123#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#142#0#142#0#0"0(22@33"No '-setBadgeLabel:' method found278146810#569#111#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#142#0#142#0#19"no '*' method found0(22@27"No '-dockTile' method found278146810#680#105#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#192#0#192#0#19"no '*' method found0(22@33"No '-setBadgeLabel:' method found278146810#785#111#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#192#0#192#0#19"no '*' method found0(22@27"No '-dockTile' method found278146810#896#105#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#196#0#196#0#19"no '*' method found0(22@33"No '-setBadgeLabel:' method found278146810#1001#111#0(6@62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m264324277#196#0#196#0#19"no '*' method found0(0#0#62"/Users/charlie/SelfControl/selfcontrol/TimerWindowController.m2422361408#1628"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/TimerWindowController.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/TimerWindowController.o0#
 
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/TimerWindowController.o /Users/d3designs/Projects/SelfControl/TimerWindowController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440353.004803
+e294440353.285772
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/TimerWindowController.o
+x/Users/d3designs/Projects/SelfControl/TimerWindowController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@69"Compile /Users/d3designs/Projects/SelfControl/TimerWindowController.m294440353#294440353#0(0"0(0#0#61"/Users/d3designs/Projects/SelfControl/TimerWindowController.m4300885448#1615"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/TimerWindowController.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/TimerWindowController.o0#
+
 CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/main.o /Users/charlie/SelfControl/selfcontrol/main.m normal ppc objective-c com.apple.compilers.gcc.4_0
 s278146809.182099
 e278146809.677627
@@ -754,6 +1422,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_0
 lSLF07#2@53"Compile /Users/charlie/SelfControl/selfcontrol/main.m278146809#278146809#0(0"0(0#0#45"/Users/charlie/SelfControl/selfcontrol/main.m2422361408#1594"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-fvqffhwffdyhihdbfhtnedyaxeeh/SelfControl_Prefix.pch -c /Users/charlie/SelfControl/selfcontrol/main.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/main.o /Users/d3designs/Projects/SelfControl/main.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440352.909361
+e294440353.058070
+r1
+xCompileC
+xbuild/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/main.o
+x/Users/d3designs/Projects/SelfControl/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@52"Compile /Users/d3designs/Projects/SelfControl/main.m294440352#294440353#0(0"0(0#0#44"/Users/d3designs/Projects/SelfControl/main.m4300885448#1581"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch -c /Users/d3designs/Projects/SelfControl/main.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/main.o0#
 
 CCompileXIB /Users/charlie/SelfControl/selfcontrol/English.lproj/DomainList.xib
 s278146783.056772
@@ -802,6 +1483,50 @@ o/* com.apple.ibtool.document.warnings */
 o/Users/charlie/SelfControl/selfcontrol/TimerWindow.xib:31: warning: NSPanel's "HUD Window Mask" option is not supported in Mac OS X versions prior to 10.5.
 lSLF07#2@26"CompileXIB TimerWindow.xib278146789#278146789#0(197"/* com.apple.ibtool.document.warnings *//Users/charlie/SelfControl/selfcontrol/TimerWindow.xib:31: warning: NSPanel's "HUD Window Mask" option is not supported in Mac OS X versions prior to 10.5.1(22@87"NSPanel's "HUD Window Mask" option is not supported in Mac OS X versions prior to 10.5.278146789#4294967295#0#0(6@54"/Users/charlie/SelfControl/selfcontrol/TimerWindow.xib264324136#31#0#31#0#0"0(0#0#54"/Users/charlie/SelfControl/selfcontrol/TimerWindow.xib2422361408#311"    cd /Users/charlie/SelfControl/selfcontrol    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources/TimerWindow.nib /Users/charlie/SelfControl/selfcontrol/TimerWindow.xib0#
 
+CCompileXIB /Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib
+s294440348.990700
+e294440349.334855
+r1
+xCompileXIB
+x/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:109: note: This view is clipping its content.
+o/* com.apple.ibtool.document.warnings */
+o/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:111: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.
+o/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:111: warning: The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size.
+o/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:112: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.
+o/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:112: warning: The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size.
+o/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:20: warning: NSTextField's "Allows Only Roman Characters" will be ignored on Mac OS X versions prior to 10.5.
+o/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:110: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.
+o/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:110: warning: The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size.
+lSLF07#2@39"CompileXIB English.lproj/DomainList.xib294440348#294440349#0(1433"/* com.apple.ibtool.document.notices *//Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:109: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:111: warning: Image scaling is not supported on Mac OS X versions prior to 10.5./Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:111: warning: The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size./Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:112: warning: Image scaling is not supported on Mac OS X versions prior to 10.5./Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:112: warning: The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size./Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:20: warning: NSTextField's "Allows Only Roman Characters" will be ignored on Mac OS X versions prior to 10.5./Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:110: warning: Image scaling is not supported on Mac OS X versions prior to 10.5./Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib:110: warning: The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size.8(13@34"This view is clipping its content.294440349#18446744073709551615#0#0(6@66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib294438486#109#0#109#0#0"0(22@66"Image scaling is not supported on Mac OS X versions prior to 10.5.294440349#18446744073709551615#0#0(6@66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib294438486#111#0#111#0#0"0(22@124"The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size.294440349#18446744073709551615#0#0(6@66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib294438486#111#0#111#0#0"0(22@66"Image scaling is not supported on Mac OS X versions prior to 10.5.294440349#18446744073709551615#0#0(6@66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib294438486#112#0#112#0#0"0(22@124"The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size.294440349#18446744073709551615#0#0(6@66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib294438486#112#0#112#0#0"0(22@96"NSTextField's "Allows Only Roman Characters" will be ignored on Mac OS X versions prior to 10.5.294440349#18446744073709551615#0#0(6@66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib294438486#20#0#20#0#0"0(22@66"Image scaling is not supported on Mac OS X versions prior to 10.5.294440349#18446744073709551615#0#0(6@66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib294438486#110#0#110#0#0"0(22@124"The image scaling property should not be used with radio buttons.  A radio button should always appear at the standard size.294440349#18446744073709551615#0#0(6@66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib294438486#110#0#110#0#0"0(0#0#66"/Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib4300885448#334"    cd /Users/d3designs/Projects/SelfControl    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/English.lproj/DomainList.nib /Users/d3designs/Projects/SelfControl/English.lproj/DomainList.xib0#
+
+CCompileXIB /Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib
+s294440348.989854
+e294440349.440458
+r1
+xCompileXIB
+x/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib:694: note: This view is clipping its content.
+o/* com.apple.ibtool.document.warnings */
+o/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib:890: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.
+o/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib:890: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib294440348#294440349#0(535"/* com.apple.ibtool.document.notices *//Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib:694: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib:890: warning: Image scaling is not supported on Mac OS X versions prior to 10.5./Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib:890: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.3(13@34"This view is clipping its content.294440349#18446744073709551615#0#0(6@64"/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib294439903#694#0#694#0#0"0(22@66"Image scaling is not supported on Mac OS X versions prior to 10.5.294440349#18446744073709551615#0#0(6@64"/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib294439903#890#0#890#0#0"0(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.294440349#18446744073709551615#0#0(6@64"/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib294439903#890#0#890#0#0"0(0#0#64"/Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib4300885448#330"    cd /Users/d3designs/Projects/SelfControl    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/English.lproj/MainMenu.nib /Users/d3designs/Projects/SelfControl/English.lproj/MainMenu.xib0#
+
+CCompileXIB /Users/d3designs/Projects/SelfControl/TigerTimerWindow.xib
+r0
+
+CCompileXIB /Users/d3designs/Projects/SelfControl/TimerWindow.xib
+s294440348.992167
+e294440349.270235
+r1
+xCompileXIB
+x/Users/d3designs/Projects/SelfControl/TimerWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/d3designs/Projects/SelfControl/TimerWindow.xib:31: warning: NSPanel's "HUD Window Mask" option is not supported in Mac OS X versions prior to 10.5.
+lSLF07#2@26"CompileXIB TimerWindow.xib294440348#294440349#0(196"/* com.apple.ibtool.document.warnings *//Users/d3designs/Projects/SelfControl/TimerWindow.xib:31: warning: NSPanel's "HUD Window Mask" option is not supported in Mac OS X versions prior to 10.5.1(22@87"NSPanel's "HUD Window Mask" option is not supported in Mac OS X versions prior to 10.5.294440349#18446744073709551615#0#0(6@53"/Users/d3designs/Projects/SelfControl/TimerWindow.xib294438713#31#0#31#0#0"0(0#0#53"/Users/d3designs/Projects/SelfControl/TimerWindow.xib4300885448#308"    cd /Users/d3designs/Projects/SelfControl    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/TimerWindow.nib /Users/d3designs/Projects/SelfControl/TimerWindow.xib0#
+
 CCopyPlistFile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources/org.eyebeam.SelfControl.plist org.eyebeam.SelfControl.plist
 s278146781.529152
 e278146782.454545
@@ -810,6 +1535,9 @@ xCopyPlistFile
 x/Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources/org.eyebeam.SelfControl.plist
 xorg.eyebeam.SelfControl.plist
 lSLF07#2@34"Copy org.eyebeam.SelfControl.plist278146781#278146785#0(0"0(0#0#68"/Users/charlie/SelfControl/selfcontrol/org.eyebeam.SelfControl.plist2422361408#264"    cd /Users/charlie/SelfControl/selfcontrol    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist org.eyebeam.SelfControl.plist --outdir /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources0#
+
+CCopyPlistFile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/org.eyebeam.SelfControl.plist org.eyebeam.SelfControl.plist
+r0
 
 CCopyStringsFile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s278146781.533373
@@ -820,20 +1548,17 @@ x/Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/R
 xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings278146781#278146785#0(0"0(0#0#70"/Users/charlie/SelfControl/selfcontrol/English.lproj/InfoPlist.strings2422361408#372"    cd /Users/charlie/SelfControl/selfcontrol    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources/English.lproj0#
 
+CCopyStringsFile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
 CCpResource build/Release/SelfControl.app/Contents/Resources/Credits.rtf Credits.rtf
-s278146789.060935
-e278146789.124623
+s294440348.991359
+e294440348.997775
 r1
 xCpResource
 xbuild/Release/SelfControl.app/Contents/Resources/Credits.rtf
 xCredits.rtf
-opbxcp(98565) malloc: *** error for object 0x1668: pointer being freed was not allocated
-o*** set a breakpoint in malloc_error_break to debug
-opbxcp(98565) malloc: *** error for object 0x1668: pointer being freed was not allocated
-o*** set a breakpoint in malloc_error_break to debug
-opbxcp(98565) malloc: *** error for object 0x1668: pointer being freed was not allocated
-o*** set a breakpoint in malloc_error_break to debug
-lSLF07#2@16"Copy Credits.rtf278146789#278146789#0(420"pbxcp(98565) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debugpbxcp(98565) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debugpbxcp(98565) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debug0(0#0#50"/Users/charlie/SelfControl/selfcontrol/Credits.rtf2422361408#354"    cd /Users/charlie/SelfControl/selfcontrol    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/charlie/SelfControl/selfcontrol/Credits.rtf /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Resources0#
+lSLF07#2@16"Copy Credits.rtf294440348#294440348#0(0"0(0#0#49"/Users/d3designs/Projects/SelfControl/Credits.rtf4300885448#351"    cd /Users/d3designs/Projects/SelfControl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/d3designs/Projects/SelfControl/Credits.rtf /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Resources0#
 
 CCpResource build/Release/SelfControl.app/Contents/Resources/ERRORS ERRORS
 s278146789.802329
@@ -950,6 +1675,16 @@ xnormal
 xi386 ppc
 lSLF07#2@96"CreateUniversalBinary build/Release/SelfControl.app/Contents/MacOS/SelfControl normal "i386 ppc"278146812#278146812#0(0"0(0#0#47"/Users/charlie/SelfControl/selfcontrol/i386 ppc2422361408#417"    cd /Users/charlie/SelfControl/selfcontrol    /usr/bin/lipo -create /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl -output /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/MacOS/SelfControl0#
 
+CCreateUniversalBinary /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl normal "i386 ppc"
+s294440353.646802
+e294440353.651815
+r1
+xCreateUniversalBinary
+x/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl
+xnormal
+xi386 ppc
+lSLF07#2@96"CreateUniversalBinary build/Release/SelfControl.app/Contents/MacOS/SelfControl normal "i386 ppc"294440353#294440353#0(0"0(0#0#46"/Users/d3designs/Projects/SelfControl/i386 ppc4300885448#413"    cd /Users/d3designs/Projects/SelfControl    /usr/bin/lipo -create /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl -output /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl0#
+
 CGenerateDSYMFile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app.dSYM /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/MacOS/SelfControl
 s278146812.049861
 e278146812.103269
@@ -958,6 +1693,15 @@ xGenerateDSYMFile
 x/Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app.dSYM
 x/Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/MacOS/SelfControl
 lSLF07#2@108"GenerateDSYMFile build/Release/SelfControl.app.dSYM build/Release/SelfControl.app/Contents/MacOS/SelfControl278146812#278146812#0(0"0(0#0#95"/Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/MacOS/SelfControl2422361408#251"    cd /Users/charlie/SelfControl/selfcontrol    /Developer/usr/bin/dsymutil /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/MacOS/SelfControl -o /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app.dSYM0#
+
+CGenerateDSYMFile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app.dSYM /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl
+s294440353.651886
+e294440353.690330
+r1
+xGenerateDSYMFile
+x/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app.dSYM
+x/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl
+lSLF07#2@108"GenerateDSYMFile build/Release/SelfControl.app.dSYM build/Release/SelfControl.app/Contents/MacOS/SelfControl294440353#294440353#0(0"0(0#0#94"/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl4300885448#248"    cd /Users/d3designs/Projects/SelfControl    /Developer/usr/bin/dsymutil /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS/SelfControl -o /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app.dSYM0#
 
 CLd /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl normal i386
 s278146809.386189
@@ -979,6 +1723,26 @@ xnormal
 xppc
 old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o
 lSLF07#2@124"Link /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl278146811#278146812#0(184"ld: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o1(22@170"Object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o278146812#0#184#0(6@0"278146812#0#0#0#0#0"0(0#0#0"2422361408#725"    cd /Users/charlie/SelfControl/selfcontrol    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.4u.sdk -L/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol -filelist /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl.LinkFileList -mmacosx-version-min=10.4 -framework Cocoa -framework SystemConfiguration -framework Security -framework Sparkle -framework iLifeControls -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl0#
+
+CLd /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl normal i386
+s294440353.012316
+e294440353.060641
+r1
+xLd
+x/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl
+xnormal
+xi386
+lSLF07#2@124"Link /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl294440353#294440353#0(0"0(0#0#0"4300885448#721"    cd /Users/d3designs/Projects/SelfControl    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -filelist /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl.LinkFileList -mmacosx-version-min=10.4 -framework Cocoa -framework SystemConfiguration -framework Security -framework Sparkle -framework iLifeControls -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl0#
+
+CLd /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl normal ppc
+s294440353.599383
+e294440353.646683
+r1
+xLd
+x/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl
+xnormal
+xppc
+lSLF07#2@123"Link /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl294440353#294440353#0(0"0(0#0#0"4300885448#718"    cd /Users/d3designs/Projects/SelfControl    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -filelist /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl.LinkFileList -mmacosx-version-min=10.4 -framework Cocoa -framework SystemConfiguration -framework Security -framework Sparkle -framework iLifeControls -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl0#
 
 CPBXCp build/Release/SelfControl.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
 s278146812.156824
@@ -1011,19 +1775,29 @@ o*** set a breakpoint in malloc_error_break to debug
 lSLF07#2@28"Copy iLifeControls.framework278146812#278146812#0(420"pbxcp(98759) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debugpbxcp(98759) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debugpbxcp(98759) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debug0(0#0#62"/Users/charlie/SelfControl/selfcontrol/iLifeControls.framework2422361408#367"    cd /Users/charlie/SelfControl/selfcontrol    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/charlie/SelfControl/selfcontrol/iLifeControls.framework /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Frameworks0#
 
 CPBXCp build/Release/SelfControl.app/Contents/MacOS/org.eyebeam.SelfControl build/Release/org.eyebeam.SelfControl
-s278146812.103393
-e278146812.155347
+s294440353.690425
+e294440353.834987
 r1
 xPBXCp
 xbuild/Release/SelfControl.app/Contents/MacOS/org.eyebeam.SelfControl
 xbuild/Release/org.eyebeam.SelfControl
-opbxcp(98757) malloc: *** error for object 0x1668: pointer being freed was not allocated
-o*** set a breakpoint in malloc_error_break to debug
-opbxcp(98757) malloc: *** error for object 0x1668: pointer being freed was not allocated
-o*** set a breakpoint in malloc_error_break to debug
-opbxcp(98757) malloc: *** error for object 0x1668: pointer being freed was not allocated
-o*** set a breakpoint in malloc_error_break to debug
-lSLF07#2@42"Copy build/Release/org.eyebeam.SelfControl278146812#278146812#0(420"pbxcp(98757) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debugpbxcp(98757) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debugpbxcp(98757) malloc: *** error for object 0x1668: pointer being freed was not allocated*** set a breakpoint in malloc_error_break to debug0(0#0#76"/Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl2422361408#376"    cd /Users/charlie/SelfControl/selfcontrol    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/MacOS0#
+lSLF07#2@42"Copy build/Release/org.eyebeam.SelfControl294440353#294440353#0(0"0(0#0#75"/Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl4300885448#373"    cd /Users/d3designs/Projects/SelfControl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/MacOS0#
+
+CPhaseScriptExecution "Automate Appcast Build" /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Script-CBF2893C10AD3A3300A0102F.sh
+s294440353.835354
+e294440353.915642
+r1
+xPhaseScriptExecution
+xAutomate Appcast Build
+x/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Script-CBF2893C10AD3A3300A0102F.sh
+o
+o
+o----------------------------------------------
+oRUN SCRIPT DURING BUILD MESSAGE
+oNo 'config.yaml' file found in project directory.
+o----------------------------------------------
+o
+lSLF07#2@48"Run custom shell script 'Automate Appcast Build'294440353#294440353#0(179"----------------------------------------------RUN SCRIPT DURING BUILD MESSAGENo 'config.yaml' file found in project directory.----------------------------------------------4(13@47"----------------------------------------------294440353#2#47#0(1@0"0(13@32"RUN SCRIPT DURING BUILD MESSAGE294440353#49#32#0(1@0"0(13@50"No 'config.yaml' file found in project directory.294440353#81#50#0(1@0"0(13@47"----------------------------------------------294440353#131#47#0(1@0"0(0#0#0"4300885448#16204"    cd /Users/d3designs/Projects/SelfControl    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER d3designs    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 ppc"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/d3designs/Projects/SelfControl/build    setenv BUILD_ROOT /Users/d3designs/Projects/SelfControl/build    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/d3designs/Projects/SelfControl/build/Release    setenv CACHE_ROOT /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/d3designs/Projects/SelfControl/build/Release    setenv CONFIGURATION_TEMP_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release    setenv CONTENTS_FOLDER_PATH SelfControl.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH ppc    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/SelfControl.dst    setenv DWARF_DSYM_FILE_NAME SelfControl.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/d3designs/Projects/SelfControl/build/Release    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH SelfControl.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH SelfControl.app/Contents/MacOS    setenv EXECUTABLE_NAME SelfControl    setenv EXECUTABLE_PATH SelfControl.app/Contents/MacOS/SelfControl    setenv FILE_LIST /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH SelfControl.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/d3designs/Projects/SelfControl/build/Release\"  \"/Users/d3designs/Projects/SelfControl\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME SelfControl.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER SelfControl_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.0    setenv GCC_VERSION_IDENTIFIER __0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/d3designs/Projects/SelfControl/build/Release/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH SelfControl.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/SelfControl.dst/Users/d3designs/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER d3designs    setenv INSTALL_PATH /Users/d3designs/Applications    setenv INSTALL_ROOT /tmp/SelfControl.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH SelfControl.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-LinkMap-normal-ppc.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/d3designs/Projects/SelfControl/build/Release\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/i386/SelfControl.LinkFileList    setenv LINK_FILE_LIST_normal_ppc /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal/ppc/SelfControl.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.4    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Objects-normal    setenv OBJROOT /Users/d3designs/Projects/SelfControl/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH SelfControl.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/PkgInfo    setenv PKGINFO_PATH SelfControl.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH SelfControl.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH SelfControl.app/Contents/PrivateHeaders    setenv PRODUCT_NAME SelfControl    setenv PRODUCT_SETTINGS_PATH /Users/d3designs/Projects/SelfControl/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT SelfControl    setenv PROJECT_DERIVED_FILE_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/DerivedSources    setenv PROJECT_DIR /Users/d3designs/Projects/SelfControl    setenv PROJECT_FILE_PATH /Users/d3designs/Projects/SelfControl/SelfControl.xcodeproj    setenv PROJECT_NAME SelfControl    setenv PROJECT_TEMP_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build    setenv PUBLIC_HEADERS_FOLDER_PATH SelfControl.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/d3designs/Projects/SelfControl/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH SelfControl.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_NAME macosx10.5    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/d3designs/Projects/SelfControl/build/Release/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH SelfControl.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH SelfControl.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/d3designs/Projects/SelfControl    setenv SRCROOT /Users/d3designs/Projects/SelfControl    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SymbolRepositories    setenv SYMROOT /Users/d3designs/Projects/SelfControl/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME SelfControl    setenv TARGET_BUILD_DIR /Users/d3designs/Projects/SelfControl/build/Release    setenv TARGET_NAME SelfControl    setenv TARGET_TEMP_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build    setenv TEMP_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build    setenv TEMP_FILES_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build    setenv TEMP_FILE_DIR /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build    setenv TEMP_ROOT /Users/d3designs/Projects/SelfControl/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH SelfControl.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER d3designs    setenv USER_APPS_DIR /Users/d3designs/Applications    setenv USER_LIBRARY_DIR /Users/d3designs/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH SelfControl.app/Contents/version.plist    setenv VERSION_INFO_BUILDER d3designs    setenv VERSION_INFO_FILE SelfControl_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:SelfControl  PROJECT:SelfControl-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME SelfControl.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/Script-CBF2893C10AD3A3300A0102F.sh0#
 
 CProcessInfoPlistFile /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Info.plist Info.plist
 s278146781.334087
@@ -1033,6 +1807,35 @@ xProcessInfoPlistFile
 x/Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Info.plist
 xInfo.plist
 lSLF07#2@18"Process Info.plist278146781#278146781#0(0"0(0#0#49"/Users/charlie/SelfControl/selfcontrol/Info.plist2422361408#314"    cd /Users/charlie/SelfControl/selfcontrol    builtin-infoPlistUtility Info.plist -genpkginfo /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app/Contents/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch.gch SelfControl_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s294440349.441549
+e294440352.300793
+r1
+xProcessPCH
+x/var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch.gch
+xSelfControl_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@33"Precompile SelfControl_Prefix.pch294440349#294440352#0(0"0(0#0#60"/Users/d3designs/Projects/SelfControl/SelfControl_Prefix.pch4300885448#1485"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -c /Users/d3designs/Projects/SelfControl/SelfControl_Prefix.pch -o /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-ajzfsdqeddwpnngrshhcesuinedz/SelfControl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch.gch SelfControl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s294440349.440576
+e294440352.400544
+r1
+xProcessPCH
+x/var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch.gch
+xSelfControl_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@33"Precompile SelfControl_Prefix.pch294440349#294440352#0(0"0(0#0#60"/Users/d3designs/Projects/SelfControl/SelfControl_Prefix.pch4300885448#1490"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/SelfControl.build/DerivedSources -c /Users/d3designs/Projects/SelfControl/SelfControl_Prefix.pch -o /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfControl_Prefix-djkwxkijezwfqdehydnicqgamvcv/SelfControl_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SelfControl_Prefix-beqhgvjatyasbdgxvirpgkuwxdsu/SelfControl_Prefix.pch.gch SelfControl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
 s278146790.006802
@@ -1067,4 +1870,12 @@ r1
 xTouch
 x/Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app
 lSLF07#2@74"Touch /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app278146812#278146812#0(0"0(0#0#0"2422361408#137"    cd /Users/charlie/SelfControl/selfcontrol    /usr/bin/touch -c /Users/charlie/SelfControl/selfcontrol/build/Release/SelfControl.app0#
+
+CTouch /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app
+s294440353.915736
+e294440353.918951
+r1
+xTouch
+x/Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app
+lSLF07#2@73"Touch /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app294440353#294440353#0(0"0(0#0#0"4300885448#135"    cd /Users/d3designs/Projects/SelfControl    /usr/bin/touch -c /Users/d3designs/Projects/SelfControl/build/Release/SelfControl.app0#
 

@@ -85,28 +85,53 @@ NSString* const kSelfControlErrorDomain = @"SelfControlErrorDomain";
 }
 
 - (IBAction)updateTimeSliderDisplay:(id)sender {
-  int numMinutes = [blockDurationSlider_ intValue];
+  int numMinutes = floor([blockDurationSlider_ intValue]);
   
-  NSString* timeString;
+	NSString* timeString;
+	NSString* minuteString;
+	NSString* hourString;
+
   
+	if (numMinutes == 1 || numMinutes % 60 == 1) {
+		minuteString = @"minute";
+	}else {
+		minuteString = @"minutes";
+	}
+	
+	if (numMinutes / 60 == 1) {
+		hourString = @"hour";
+	}else {
+		hourString = @"hours";
+	}
+
+	
   if (numMinutes == 0) {
     timeString = [NSString stringWithString:@"Disabled"];
     [submitButton_ setEnabled: NO];
   }
   else if (numMinutes < 60) {
-    timeString = [NSString stringWithFormat:@"%d minutes", numMinutes];
+	  
+	timeString = [NSString stringWithFormat:@"%d %@", numMinutes, minuteString];
+    
     if([[defaults_ arrayForKey:@"HostBlacklist"] count] != 0)
       [submitButton_ setEnabled: YES];
   }
-  else if (numMinutes % 60 == 0) { 
-    timeString = [NSString stringWithFormat:@"%d hours", numMinutes / 60];
+  else if (numMinutes % 60 == 0) {
+	  
+	timeString = [NSString stringWithFormat:@"%d %@", numMinutes / 60, hourString];
+	  
     if([[defaults_ arrayForKey:@"HostBlacklist"] count] != 0)
       [submitButton_ setEnabled: YES];
   }
   else {
-    timeString = [NSString stringWithFormat:@"%d hours, %d minutes",
-                                            numMinutes / 60,
-                                            numMinutes % 60];
+	  
+	timeString = [NSString stringWithFormat:@"%d %@, %d %@",
+				  numMinutes / 60,
+				  hourString,
+				  numMinutes % 60,
+				  minuteString];
+	  
+    
     if([[defaults_ arrayForKey:@"HostBlacklist"] count] != 0)
       [submitButton_ setEnabled: YES];
   }
