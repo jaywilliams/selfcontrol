@@ -1,827 +1,0 @@
-Torg.eyebeam.SelfControl
-v7
-r0
-t294440348.977174
-cCheck dependencies
-cProcessPCH /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_0
-cProcessPCH /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o /Users/d3designs/Projects/SelfControl/HelperMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o /Users/d3designs/Projects/SelfControl/IPFirewall.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o /Users/d3designs/Projects/SelfControl/LaunchctlHelper.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o /Users/d3designs/Projects/SelfControl/HostFileBlocker.m normal i386 objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o /Users/d3designs/Projects/SelfControl/HelperMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o /Users/d3designs/Projects/SelfControl/IPFirewall.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o /Users/d3designs/Projects/SelfControl/LaunchctlHelper.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o /Users/d3designs/Projects/SelfControl/HostFileBlocker.m normal ppc objective-c com.apple.compilers.gcc.4_0
-cLd /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl normal i386
-cLd /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl normal ppc
-cCreateUniversalBinary /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl normal "i386 ppc"
-cGenerateDSYMFile /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl.dSYM /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl
-
-N/Developer/SDKs/MacOSX10.4u.sdk
-c000000004A1199E200000000000000EE
-t1242667490
-s238
-
-N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-c000000004628C8C90000000000001504
-t1177077961
-s5380
-
-N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
-c00000000462EA283000000000000095A
-t1177461379
-s2394
-
-N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000462EB9B00000000000001382
-t1177467312
-s4994
-
-N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Security.framework/Security
-c000000004A0DE2E30000000000028898
-t1242424035
-s166040
-
-N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sysexits.h
-c00000000463BAA5A0000000000001933
-t1178315354
-s6451
-
-N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/unistd.h
-c00000000463BAA5A0000000000004EED
-t1178315354
-s20205
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004AB44D2500000000000000EE
-t1253330213
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-c000000004864BB88000000000000170F
-t1214561160
-s5903
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
-c00000000486499690000000000000942
-t1214552425
-s2370
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004864A1C900000000000012EE
-t1214554569
-s4846
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Security.framework/Security
-c000000004A0CC11F0000000000066764
-t1242349855
-s419684
-
-N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sysexits.h
-c0000000047BA99300000000000001560
-t1203411248
-s5472
-
-N/Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h
-c0000000047BA993200000000000053FF
-t1203411250
-s21503
-
-N/Users/charlie/SelfControl/selfcontrol/HelperMain.h
-c000000004A0DB9B70000000000000B6F
-t1242413495
-s2927
-i<Foundation/Foundation.h>
-i<CoreFoundation/CoreFoundation.h>
-i"IPFirewall.h"
-i"LaunchctlHelper.h"
-i"SelfControlUtilities.h"
-i<unistd.h>
-i<Cocoa/Cocoa.h>
-i<sysexits.h>
-i"HostFileBlocker.h"
-
-N/Users/charlie/SelfControl/selfcontrol/HelperMain.m
-c000000004AE3F5840000000000009B90
-t1256453508
-s39824
-i"HelperMain.h"
-
-N/Users/charlie/SelfControl/selfcontrol/HostFileBlocker.h
-c000000004ADDD8860000000000000513
-t1256052870
-s1299
-i<Cocoa/Cocoa.h>
-
-N/Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m
-c000000004ADDD6B50000000000000E5A
-t1256052405
-s3674
-i"HostFileBlocker.h"
-
-N/Users/charlie/SelfControl/selfcontrol/IPFirewall.h
-c000000004A0CEC1F0000000000001627
-t1242360863
-s5671
-i<Foundation/Foundation.h>
-i<unistd.h>
-
-N/Users/charlie/SelfControl/selfcontrol/IPFirewall.m
-c000000004A0CEC590000000000003D8A
-t1242360921
-s15754
-i"IPFirewall.h"
-
-N/Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.h
-c0000000049D6A8E70000000000000670
-t1238804711
-s1648
-i<Foundation/Foundation.h>
-
-N/Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m
-c000000004A00CBC000000000000006BE
-t1241566144
-s1726
-i"LaunchctlHelper.h"
-
-N/Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.h
-c0000000049F204D20000000000000549
-t1240597714
-s1353
-i<Foundation/Foundation.h>
-
-N/Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m
-c0000000049F20BFE00000000000007C9
-t1240599550
-s1993
-i"SelfControlUtilities.h"
-
-N/Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl
-t1256453980
-s113316
-
-N/Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl.dSYM
-t1256453981
-s102
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o
-t1256453977
-s62368
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o
-t1256453976
-s16512
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o
-t1256453976
-s30212
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o
-t1256453976
-s8836
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o
-t1256453976
-s7460
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl
-t1256453977
-s55844
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl.LinkFileList
-c000000004ACA048700000000000002B2
-t1254753415
-s690
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o
-t1256453980
-s77284
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o
-t1256453979
-s19968
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o
-t1256453979
-s42084
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o
-t1256453979
-s9716
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o
-t1256453979
-s7716
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl
-t1256453980
-s51876
-
-N/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl.LinkFileList
-c000000004ACA048700000000000002AD
-t1254753415
-s685
-
-N/Users/d3designs/Projects/SelfControl/HelperMain.h
-c000000004AFCDE9C0000000000000B6F
-t1258086044
-s2927
-i<Foundation/Foundation.h>
-i<CoreFoundation/CoreFoundation.h>
-i"IPFirewall.h"
-i"LaunchctlHelper.h"
-i"SelfControlUtilities.h"
-i<unistd.h>
-i<Cocoa/Cocoa.h>
-i<sysexits.h>
-i"HostFileBlocker.h"
-
-N/Users/d3designs/Projects/SelfControl/HelperMain.m
-c000000004AFCDE9C0000000000009FD7
-t1258086044
-s40919
-i"HelperMain.h"
-
-N/Users/d3designs/Projects/SelfControl/HostFileBlocker.h
-c000000004AFCDE9C0000000000000513
-t1258086044
-s1299
-i<Cocoa/Cocoa.h>
-
-N/Users/d3designs/Projects/SelfControl/HostFileBlocker.m
-c000000004AFCDE9C0000000000000E5A
-t1258086044
-s3674
-i"HostFileBlocker.h"
-
-N/Users/d3designs/Projects/SelfControl/IPFirewall.h
-c000000004AFCDE9C0000000000001627
-t1258086044
-s5671
-i<Foundation/Foundation.h>
-i<unistd.h>
-
-N/Users/d3designs/Projects/SelfControl/IPFirewall.m
-c000000004AFCDE9C0000000000003D8A
-t1258086044
-s15754
-i"IPFirewall.h"
-
-N/Users/d3designs/Projects/SelfControl/LaunchctlHelper.h
-c000000004AFCDE9C0000000000000670
-t1258086044
-s1648
-i<Foundation/Foundation.h>
-
-N/Users/d3designs/Projects/SelfControl/LaunchctlHelper.m
-c000000004AFCDE9C00000000000006BE
-t1258086044
-s1726
-i"LaunchctlHelper.h"
-
-N/Users/d3designs/Projects/SelfControl/SelfControlUtilities.h
-c000000004AFCDE9C0000000000000549
-t1258086044
-s1353
-i<Foundation/Foundation.h>
-
-N/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m
-c000000004AFCDE9C00000000000007C9
-t1258086044
-s1993
-i"SelfControlUtilities.h"
-
-N/Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl
-t1272747548
-s108448
-
-N/Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl.dSYM
-t1272747548
-s102
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o
-t1272747548
-s63416
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o
-t1272747548
-s16736
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o
-t1272747548
-s30380
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o
-t1272747547
-s8996
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o
-t1272747547
-s7588
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl
-t1272747548
-s51788
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl.LinkFileList
-c000000004BDC961800000000000002AD
-t1272747544
-s685
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o
-t1272747548
-s78888
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o
-t1272747548
-s20168
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o
-t1272747548
-s42248
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o
-t1272747548
-s9868
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o
-t1272747548
-s7856
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl
-t1272747548
-s51104
-
-N/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl.LinkFileList
-c000000004BDC961800000000000002A8
-t1272747544
-s680
-
-N/var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h.gch
-t1272747547
-s34226348
-
-N/var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h.gch
-t1272747547
-s32653316
-
-N/var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h.gch
-t1256453973
-s29660380
-
-N/var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-fstoldouzibwpdbnxxjjrizsgwmj/AppKit.h.gch
-t2
-s0
-
-N/var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-ftuspycgnyqgsgexruhoacfxzopf/AppKit.h.gch
-t2
-s0
-
-N/var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h.gch
-t1256453973
-s28001388
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies294440344#294440344#0(0"0(0#1#0"4300885448#0"0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o /Users/charlie/SelfControl/selfcontrol/HelperMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s278146775.144623
-e278146777.278743
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o
-x/Users/charlie/SelfControl/selfcontrol/HelperMain.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@59"Compile /Users/charlie/SelfControl/selfcontrol/HelperMain.m278146775#278146777#0(0"0(0#0#51"/Users/charlie/SelfControl/selfcontrol/HelperMain.m2422361408#1677"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/HelperMain.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o /Users/charlie/SelfControl/selfcontrol/HelperMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o /Users/d3designs/Projects/SelfControl/HelperMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s294440347.706326
-e294440348.513193
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o
-x/Users/d3designs/Projects/SelfControl/HelperMain.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@58"Compile /Users/d3designs/Projects/SelfControl/HelperMain.m294440347#294440348#0(0"0(0#0#50"/Users/d3designs/Projects/SelfControl/HelperMain.m4300885448#1665"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h -c /Users/d3designs/Projects/SelfControl/HelperMain.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HelperMain.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o /Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s278146776.650576
-e278146776.986907
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o
-x/Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@64"Compile /Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m278146776#278146776#0(0"0(0#0#56"/Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m2422361408#1687"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o /Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o /Users/d3designs/Projects/SelfControl/HostFileBlocker.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s294440347.900292
-e294440348.075489
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o
-x/Users/d3designs/Projects/SelfControl/HostFileBlocker.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@63"Compile /Users/d3designs/Projects/SelfControl/HostFileBlocker.m294440347#294440348#0(0"0(0#0#55"/Users/d3designs/Projects/SelfControl/HostFileBlocker.m4300885448#1675"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h -c /Users/d3designs/Projects/SelfControl/HostFileBlocker.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/HostFileBlocker.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o /Users/charlie/SelfControl/selfcontrol/IPFirewall.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s278146775.146146
-e278146776.197633
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o
-x/Users/charlie/SelfControl/selfcontrol/IPFirewall.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@59"Compile /Users/charlie/SelfControl/selfcontrol/IPFirewall.m278146775#278146776#0(0"0(0#0#51"/Users/charlie/SelfControl/selfcontrol/IPFirewall.m2422361408#1677"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/IPFirewall.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o /Users/charlie/SelfControl/selfcontrol/IPFirewall.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o /Users/d3designs/Projects/SelfControl/IPFirewall.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s294440347.707588
-e294440348.057864
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o
-x/Users/d3designs/Projects/SelfControl/IPFirewall.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@58"Compile /Users/d3designs/Projects/SelfControl/IPFirewall.m294440347#294440348#0(0"0(0#0#50"/Users/d3designs/Projects/SelfControl/IPFirewall.m4300885448#1665"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h -c /Users/d3designs/Projects/SelfControl/IPFirewall.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/IPFirewall.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o /Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s278146776.197890
-e278146776.431993
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o
-x/Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@64"Compile /Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m278146776#278146776#0(0"0(0#0#56"/Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m2422361408#1687"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o /Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o /Users/d3designs/Projects/SelfControl/LaunchctlHelper.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s294440347.708613
-e294440347.919559
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o
-x/Users/d3designs/Projects/SelfControl/LaunchctlHelper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@63"Compile /Users/d3designs/Projects/SelfControl/LaunchctlHelper.m294440347#294440347#0(0"0(0#0#55"/Users/d3designs/Projects/SelfControl/LaunchctlHelper.m4300885448#1675"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h -c /Users/d3designs/Projects/SelfControl/LaunchctlHelper.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/LaunchctlHelper.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s278146776.432154
-e278146776.650443
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o
-x/Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@69"Compile /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m278146776#278146776#0(0"0(0#0#61"/Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m2422361408#1697"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m normal i386 objective-c com.apple.compilers.gcc.4_0
-s294440347.710232
-e294440347.899834
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o
-x/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@68"Compile /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m294440347#294440347#0(0"0(0#0#60"/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m4300885448#1685"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h -c /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/SelfControlUtilities.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o /Users/charlie/SelfControl/selfcontrol/HelperMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s278146776.987052
-e278146780.149498
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o
-x/Users/charlie/SelfControl/selfcontrol/HelperMain.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@59"Compile /Users/charlie/SelfControl/selfcontrol/HelperMain.m278146776#278146780#0(0"0(0#0#51"/Users/charlie/SelfControl/selfcontrol/HelperMain.m2422361408#1671"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/HelperMain.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o /Users/charlie/SelfControl/selfcontrol/HelperMain.m normal ppc objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o /Users/d3designs/Projects/SelfControl/HelperMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s294440347.919691
-e294440348.697601
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o
-x/Users/d3designs/Projects/SelfControl/HelperMain.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@58"Compile /Users/d3designs/Projects/SelfControl/HelperMain.m294440347#294440348#0(0"0(0#0#50"/Users/d3designs/Projects/SelfControl/HelperMain.m4300885448#1659"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h -c /Users/d3designs/Projects/SelfControl/HelperMain.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HelperMain.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o /Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s278146779.501167
-e278146779.804980
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o
-x/Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@64"Compile /Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m278146779#278146779#0(0"0(0#0#56"/Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m2422361408#1681"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o /Users/charlie/SelfControl/selfcontrol/HostFileBlocker.m normal ppc objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o /Users/d3designs/Projects/SelfControl/HostFileBlocker.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s294440348.354758
-e294440348.524902
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o
-x/Users/d3designs/Projects/SelfControl/HostFileBlocker.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@63"Compile /Users/d3designs/Projects/SelfControl/HostFileBlocker.m294440348#294440348#0(0"0(0#0#55"/Users/d3designs/Projects/SelfControl/HostFileBlocker.m4300885448#1669"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h -c /Users/d3designs/Projects/SelfControl/HostFileBlocker.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/HostFileBlocker.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o /Users/charlie/SelfControl/selfcontrol/IPFirewall.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s278146778.129809
-e278146779.014144
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o
-x/Users/charlie/SelfControl/selfcontrol/IPFirewall.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@59"Compile /Users/charlie/SelfControl/selfcontrol/IPFirewall.m278146778#278146779#0(0"0(0#0#51"/Users/charlie/SelfControl/selfcontrol/IPFirewall.m2422361408#1671"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/IPFirewall.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o /Users/charlie/SelfControl/selfcontrol/IPFirewall.m normal ppc objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o /Users/d3designs/Projects/SelfControl/IPFirewall.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s294440348.058046
-e294440348.398997
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o
-x/Users/d3designs/Projects/SelfControl/IPFirewall.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@58"Compile /Users/d3designs/Projects/SelfControl/IPFirewall.m294440348#294440348#0(0"0(0#0#50"/Users/d3designs/Projects/SelfControl/IPFirewall.m4300885448#1659"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h -c /Users/d3designs/Projects/SelfControl/IPFirewall.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/IPFirewall.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o /Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s278146779.014279
-e278146779.220204
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o
-x/Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@64"Compile /Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m278146779#278146779#0(0"0(0#0#56"/Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m2422361408#1681"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o /Users/charlie/SelfControl/selfcontrol/LaunchctlHelper.m normal ppc objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o /Users/d3designs/Projects/SelfControl/LaunchctlHelper.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s294440348.075623
-e294440348.235655
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o
-x/Users/d3designs/Projects/SelfControl/LaunchctlHelper.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@63"Compile /Users/d3designs/Projects/SelfControl/LaunchctlHelper.m294440348#294440348#0(0"0(0#0#55"/Users/d3designs/Projects/SelfControl/LaunchctlHelper.m4300885448#1669"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h -c /Users/d3designs/Projects/SelfControl/LaunchctlHelper.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/LaunchctlHelper.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s278146779.220338
-e278146779.501025
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o
-x/Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@69"Compile /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m278146779#278146779#0(0"0(0#0#61"/Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m2422361408#1691"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h -c /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o0#
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o /Users/charlie/SelfControl/selfcontrol/SelfControlUtilities.m normal ppc objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m normal ppc objective-c com.apple.compilers.gcc.4_0
-s294440348.235765
-e294440348.354609
-r1
-xCompileC
-xbuild/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o
-x/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@68"Compile /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m294440348#294440348#0(0"0(0#0#60"/Users/d3designs/Projects/SelfControl/SelfControlUtilities.m4300885448#1679"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -include /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h -c /Users/d3designs/Projects/SelfControl/SelfControlUtilities.m -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/SelfControlUtilities.o0#
-
-CCreateUniversalBinary /Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl normal "i386 ppc"
-s278146780.782435
-e278146780.857315
-r1
-xCreateUniversalBinary
-x/Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl
-xnormal
-xi386 ppc
-lSLF07#2@77"CreateUniversalBinary build/Release/org.eyebeam.SelfControl normal "i386 ppc"278146780#278146780#0(0"0(0#0#47"/Users/charlie/SelfControl/selfcontrol/i386 ppc2422361408#446"    cd /Users/charlie/SelfControl/selfcontrol    /usr/bin/lipo -create /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl -output /Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl0#
-
-CCreateUniversalBinary /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl normal "i386 ppc"
-s294440348.883682
-e294440348.915550
-r1
-xCreateUniversalBinary
-x/Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl
-xnormal
-xi386 ppc
-lSLF07#2@77"CreateUniversalBinary build/Release/org.eyebeam.SelfControl normal "i386 ppc"294440348#294440348#0(0"0(0#0#46"/Users/d3designs/Projects/SelfControl/i386 ppc4300885448#442"    cd /Users/d3designs/Projects/SelfControl    /usr/bin/lipo -create /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl -output /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl0#
-
-CGenerateDSYMFile /Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl.dSYM /Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl
-s278146780.857454
-e278146781.220982
-r1
-xGenerateDSYMFile
-x/Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl.dSYM
-x/Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl
-lSLF07#2@97"GenerateDSYMFile build/Release/org.eyebeam.SelfControl.dSYM build/Release/org.eyebeam.SelfControl278146780#278146781#0(0"0(0#0#76"/Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl2422361408#240"    cd /Users/charlie/SelfControl/selfcontrol    /Developer/usr/bin/dsymutil /Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl -o /Users/charlie/SelfControl/selfcontrol/build/Release/org.eyebeam.SelfControl.dSYM0#
-
-CGenerateDSYMFile /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl.dSYM /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl
-s294440348.915645
-e294440348.977001
-r1
-xGenerateDSYMFile
-x/Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl.dSYM
-x/Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl
-lSLF07#2@97"GenerateDSYMFile build/Release/org.eyebeam.SelfControl.dSYM build/Release/org.eyebeam.SelfControl294440348#294440348#0(0"0(0#0#75"/Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl4300885448#237"    cd /Users/d3designs/Projects/SelfControl    /Developer/usr/bin/dsymutil /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl -o /Users/d3designs/Projects/SelfControl/build/Release/org.eyebeam.SelfControl.dSYM0#
-
-CLd /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl normal i386
-s278146777.278871
-e278146778.129449
-r1
-xLd
-x/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl
-xnormal
-xi386
-lSLF07#2@149"Link /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl278146777#278146778#0(0"0(0#0#0"2422361408#683"    cd /Users/charlie/SelfControl/selfcontrol    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -L/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol/build/Release -filelist /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl.LinkFileList -mmacosx-version-min=10.4 -framework Foundation -framework AppKit -framework Security -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl0#
-
-CLd /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl normal ppc
-s278146780.149616
-e278146780.782310
-r1
-xLd
-x/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl
-xnormal
-xppc
-old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o
-lSLF07#2@148"Link /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl278146780#278146780#0(184"ld: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o1(22@170"Object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o278146780#0#184#0(6@0"278146780#0#0#0#0#0"0(0#0#0"2422361408#680"    cd /Users/charlie/SelfControl/selfcontrol    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.4u.sdk -L/Users/charlie/SelfControl/selfcontrol/build/Release -F/Users/charlie/SelfControl/selfcontrol/build/Release -filelist /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl.LinkFileList -mmacosx-version-min=10.4 -framework Foundation -framework AppKit -framework Security -o /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl0#
-
-CLd /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl normal i386
-s294440348.513317
-e294440348.571818
-r1
-xLd
-x/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl
-xnormal
-xi386
-lSLF07#2@148"Link /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl294440348#294440348#0(0"0(0#0#0"4300885448#677"    cd /Users/d3designs/Projects/SelfControl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl/build/Release -filelist /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework AppKit -framework Security -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/i386/org.eyebeam.SelfControl0#
-
-CLd /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl normal ppc
-s294440348.697701
-e294440348.883553
-r1
-xLd
-x/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl
-xnormal
-xppc
-lSLF07#2@147"Link /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl294440348#294440348#0(0"0(0#0#0"4300885448#674"    cd /Users/d3designs/Projects/SelfControl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/d3designs/Projects/SelfControl/build/Release -F/Users/d3designs/Projects/SelfControl/build/Release -filelist /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework AppKit -framework Security -o /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/Objects-normal/ppc/org.eyebeam.SelfControl0#
-
-CProcessPCH /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_0
-s294440344.393570
-e294440347.426650
-r1
-xProcessPCH
-x/var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h.gch
-x/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h294440344#294440347#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h4300885448#1574"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -c /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-aupiizwiofceoecnwswmqeprvcpf/AppKit.h.gch0#
-
-CProcessPCH /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_0
-s294440344.394544
-e294440347.706183
-r1
-xProcessPCH
-x/var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h.gch
-x/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h294440344#294440347#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h4300885448#1569"    cd /Users/d3designs/Projects/SelfControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/d3designs/Projects/SelfControl/build/Release -I/Users/d3designs/Projects/SelfControl/build/Release/include -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/d3designs/Projects/SelfControl/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -c /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/Ll/LlzOWVRjHJubl2KKcxO+jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cjuaopnmmwelstapekjxwjimggro/AppKit.h.gch0#
-
-CProcessPCH /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h.gch /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_0
-s278146754.310469
-e278146775.144481
-r1
-xProcessPCH
-x/var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h.gch
-x/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@102"Precompile /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h278146754#278146775#0(0"0(0#0#91"/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h2422361408#1585"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/i386 -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -c /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-avazgojcnijzpshczjbrrpcvnrkb/AppKit.h.gch0#
-
-CProcessPCH /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-fstoldouzibwpdbnxxjjrizsgwmj/AppKit.h.gch /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-ftuspycgnyqgsgexruhoacfxzopf/AppKit.h.gch /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h.gch /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_0
-s278146754.312133
-e278146773.952309
-r1
-xProcessPCH
-x/var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h.gch
-x/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@102"Precompile /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h278146754#278146773#0(0"0(0#0#91"/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h2422361408#1580"    cd /Users/charlie/SelfControl/selfcontrol    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-generated-files.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-own-target-headers.hmap -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-all-target-headers.hmap -iquote /Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/org.eyebeam.SelfControl-project-headers.hmap -F/Users/charlie/SelfControl/selfcontrol/build/Release -I/Users/charlie/SelfControl/selfcontrol/build/Release/include -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources/ppc -I/Users/charlie/SelfControl/selfcontrol/build/SelfControl.build/Release/org.eyebeam.SelfControl.build/DerivedSources -c /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/np/nppAh7s9H8CB9YCW88riEE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AppKit-gtvztozlokugcqcoloxzbpcbobwo/AppKit.h.gch0#
-
